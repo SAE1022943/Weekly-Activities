@@ -22,10 +22,6 @@ public class FloatTimer : MonoBehaviour
         } 
         else
         {
-
-            //timerStopped?.Invoke();
-
-
             int mins = (int)(timerElapsed / 60f);
             int seconds = (int)(timerElapsed % 60f);           
             string message = string.Format("the time is {0}m and {1}s", mins, seconds);
